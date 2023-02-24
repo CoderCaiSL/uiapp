@@ -2,13 +2,13 @@ package com.caisl.uiapp;
 
 import android.app.Application;
 import android.content.Context;
-import android.support.multidex.MultiDex;
 import android.util.Log;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.multidex.MultiDex;
 import io.dcloud.feature.sdk.DCSDKInitConfig;
 import io.dcloud.feature.sdk.DCUniMPSDK;
 import io.dcloud.feature.sdk.Interface.IDCUniMPPreInitCallback;
